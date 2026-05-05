@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-50 text-zinc-900 transition-colors duration-300 dark:bg-zinc-950 dark:text-zinc-100 overflow-x-hidden;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/40 dark:bg-black/40 backdrop-blur-md border border-zinc-200 dark:border-zinc-800 shadow-xl;
+}
